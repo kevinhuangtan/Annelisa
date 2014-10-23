@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Annelisa Leinbach</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../css/home.css"rel="stylesheet" media="screen">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#photography-pic").hover(function(){
+          $("#photography").toggle();
+        });
+        $("#painting-pic").hover(function(){
+          $("#painting").toggle();
+        });
+        $("#illustration-pic").hover(function(){
+          $("#illustration").toggle();
+        });
+
+        // size text 
+        height = $(".work-img").height()/2.8;
+        $(".work-text").css('margin-top', height+'px')
+        $(window).resize(function(){
+          height = $(".work-img").height()/2.8;
+          $(".work-text").css('margin-top', height+'px')
+        });
+
+        //size middle text
+        height_painting = $(".work-img").height()/5.3;
+        $("#painting").css('margin-top', height_painting+'px')
+        $(window).resize(function(){
+          height_painting = $(".work-img").height()/5.3;
+          $("#painting").css('margin-top', height_painting+'px')
+        });
+
+        //size width text-align:center works!
+        width= $(".work-img").width();
+        $(".work-text").css('width', width+'px')
+        $(window).resize(function(){
+          width = $(".work-img").width();
+          $(".work-text").css('width', width+'px')
+        });
+
+      });
+    </script>
+
+  </head>
+
+  <body >
+
+  <nav class="navbar navbar-static-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="../index.html">
+        <img class="signature"src="../images/signature2.jpg">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="work.html">WORK</a></li>
+        <li><a>CONTACT</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div>
+  </nav>
+
+    <div class="container-fluid">
+
+      <div style="height:50px"></div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="row">
+
+            <div class="col-xs-4 blocks">
+                <p id="photography" class="work-text" >PHOTOGRAPHY</p>
+
+              <div  id="photography-pic" class="dim">
+                <img src="../images/iceland.jpg" class="work-img" >
+              </div>
+            </div>
+
+            <div class="col-xs-4 blocks" style="table">     
+                <p id="painting" class="work-text">PAINTING<br> AND <br>DRAWING</p>
+              <div id="painting-pic" class="dim">
+                <img src="../images/tempest.jpg" class="work-img">
+              </div>
+            </div>
+
+            <div class="col-xs-4 blocks">
+                <p id="illustration" class="work-text"> ILLUSTRATION</p>
+                <div id="illustration-pic" class="dim">
+                  <img src="../images/leaf_tapestry4.jpg" class="work-img">
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>            
+
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,70 @@
+
+.navbar-static-top{
+	margin-top: 45px;
+	padding-left: 100px;
+}
+
+.container-fluid{
+	padding-top: 15px;
+    padding-bottom: 30px;
+}
+.signature{
+	 width:220px;
+	 position: relative;
+	 bottom: 50px;
+}
+/*
+about work contact vertical*/
+.navbar-nav{
+	margin-left:30px;
+}
+ul{
+	padding-top:10px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+}
+
+/*#####################*/
+
+a{
+	color: black;
+}
+
+a:hover{
+/*	color: #5C5B5B;*/
+	color: black;
+	text-decoration: none;
+}
+
+
+.blocks{
+	height:300px;
+	padding-left:10px;
+	padding-right: 10px;
+    text-align: center;
+}
+
+.work-img{
+	width:100%;
+	height:auto;
+}
+.dim{
+	background-color: white;
+	opacity: 1;
+}
+.dim:hover{
+	opacity:.4;
+}
+
+.work-text{
+	position: absolute;
+	display:none;
+	font-size: 3vw;
+	font-weight: bold;
+}
