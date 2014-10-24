@@ -2,8 +2,10 @@
 text-align centers things inside div
 margin: 0 auto centers thing itself*/
 
-.container-fluid{
+body{
 	padding-top: 15px;
+}
+.container-fluid{
     padding-bottom: 30px;
 }
 .menu{
@@ -73,5 +75,25 @@ a:hover{
     .work-text{
     	font-size:8vw;
     } 
+    .divider > p{
+    	display: none;
+    }
 
+}
+
+.divider{
+	position: fixed;
+	height: 100%;
+	width: 50%;
+
+}
+.divider > p{
+	text-align: right;
+	margin-top: 0 auto;
+	margin: 5px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.5vw;
+}
+divider_text{
+	
 }

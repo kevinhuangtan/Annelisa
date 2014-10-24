@@ -10,17 +10,48 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
     </script>
     <script>
+        
       $(document).ready(function(){
-        $("#photography-pic").hover(function(){
-          $("#photography").toggle();
+
+        // slideshow directions
+        slide = 11;
+        $("#next").click(function(){
+          slide += 1;
+          $("#al-slideshow").attr("src", "../images/photography/gd" + slide + ".jpg");
         });
-        $("#painting-pic").hover(function(){
-          $("#painting").toggle();
+        $("#back").click(function(){
+          if (slide>11){
+            slide -= 1;
+            $("#al-slideshow").attr("src", "../images/photography/gd" + slide + ".jpg");
+          }
         });
-        $("#illustration-pic").hover(function(){
-          $("#illustration").toggle();
+        // show menu
+
+        // $("#al-slideshow").mouseleave(function(){
+        //     $(".menu").slideDown(700);
+        //   });
+
+
+        // // mouseleave instead of mouseout, so it doesnt affect when mouse over link
+        // $(".menu").mouseleave(function(){
+        //   $(".menu").slideUp(700);
+        // });
+
+        // vertical align text
+        height = $("#al-slideshow").height()/2.2;
+        $(".divider_text").css('margin-top', height+'px')
+
+        $(window).resize(function(){
+          height = $("#al-slideshow").height()/2.2;
+          console.log(height);
+        $(".divider_text").css('margin-top', height+'px');
         });
 
+        $("#next").click(function(){
+          $("#next_text").hide();
+        });
+
+      });  
     </script>
 
   </head>
@@ -38,19 +69,24 @@
       </ul>
   </div>
 
+
+
     <div class="container-fluid">
 
-      <div style="height:20px"></div>
+    <a href="#"><div id="back"class="divider" style="left:0px"></div></a>
+    <a href="#"><div id="next"class="divider" style="right:0px"><p id="next_text"class="divider_text">CLICK AREA<br>NEXT SLIDE</div></a>
+<!--       <div id="al-hover" style="height:10px"></div> -->
+      <div id = "al-top"></div>
 
-
-        <div class="col-sm-offset-2 col-sm-8" >
-          <img src="../images/cave.jpg" style="width:100%"> 
+      <div class="row">
+        <div  class="col-sm-10 col-sm-offset-1" >
+            <img id ="al-slideshow" src="../images/photography/gd11.jpg" style="width:100%"> 
         </div>
+      </div>
+
+<!--       divide page in half -->
 
 
-      
-
-    </div>
 
   </body>
 
