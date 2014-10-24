@@ -11,6 +11,14 @@
     </script>
     <script>
       $(document).ready(function(){
+        height = $(".work-img").height()/2.8;
+        height_painting = $(".work-img").height()/5.3;
+        width = $(".work-img").width();
+
+        $(".work-text").css('margin-top', height+'px')
+        $("#painting").css('margin-top', height_painting+'px')
+        $(".work-text").css('width', width+'px')
+
         $("#photography-pic").hover(function(){
           $("#photography").toggle();
         });
@@ -22,24 +30,24 @@
         });
 
         // size text 
-        height = $(".work-img").height()/2.8;
-        $(".work-text").css('margin-top', height+'px')
+
+
         $(window).resize(function(){
           height = $(".work-img").height()/2.8;
-          $(".work-text").css('margin-top', height+'px')
+        $(".work-text").css('margin-top', height+'px')
         });
 
         //size middle text
-        height_painting = $(".work-img").height()/5.3;
-        $("#painting").css('margin-top', height_painting+'px')
+
+
         $(window).resize(function(){
           height_painting = $(".work-img").height()/5.3;
           $("#painting").css('margin-top', height_painting+'px')
         });
 
         //size width text-align:center works!
-        width= $(".work-img").width();
-        $(".work-text").css('width', width+'px')
+
+
         $(window).resize(function(){
           width = $(".work-img").width();
           $(".work-text").css('width', width+'px')
@@ -68,28 +76,32 @@
       <div style="height:50px"></div>
 
 
-
-
             <div class="col-sm-4 blocks">
                 <p id="photography" class="work-text" >PHOTOGRAPHY</p>
-
+              <a href="photography.html">
               <div  id="photography-pic" class="dim">
                 <img src="../images/iceland.jpg" class="work-img" >
               </div>
+              </a>
+
             </div>
 
             <div class="col-sm-4 blocks" style="table">     
                 <p id="painting" class="work-text">PAINTING<br> AND <br>DRAWING</p>
+              <a href="#">
               <div id="painting-pic" class="dim">
                 <img src="../images/tempest.jpg" class="work-img">
               </div>
+              </a>
             </div>
 
             <div class="col-sm-4 blocks">
                 <p id="illustration" class="work-text"> ILLUSTRATION</p>
+                <a href="#">
                 <div id="illustration-pic" class="dim">
                   <img src="../images/leaf_tapestry4.jpg" class="work-img">
                 </div>
+              </a>
             </div>
    
       
