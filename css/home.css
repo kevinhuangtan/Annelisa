@@ -5,6 +5,10 @@ margin: 0 auto centers thing itself*/
 body{
 	padding-top: 15px;
 }
+
+p{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 .container-fluid{
     padding-bottom: 30px;
 }
@@ -13,7 +17,7 @@ body{
 	height: 140px;
 }
 .signature{
-	 width:290px;
+	 width:270px;
 }
 
 /*
@@ -75,25 +79,60 @@ a:hover{
     .work-text{
     	font-size:8vw;
     } 
-    .divider > p{
-    	display: none;
-    }
 
+}
+@media (max-width: 870px) {
+
+    #next_text{
+    	display:none;
+    }
 }
 
 .divider{
-	position: fixed;
-	height: 100%;
-	width: 50%;
+	position: absolute;
+	height:400px;
+	width: 24%;
+/*	background-color: blue;*/
+	text-align: center;
+	display: inline;
+}
+#next_text{
+	font-size: 10px;
+	top:-300px;
+}
 
+.art_description_container{
+	width: 100%;
 }
-.divider > p{
-	text-align: right;
-	margin-top: 0 auto;
-	margin: 5px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 1.5vw;
+.art_description{
+	font-style: italic;
+	text-align: center;
 }
-divider_text{
-	
+
+.al_slideshow{
+	display: block;
+	height:420px;
+	margin: auto;
+	z-index: -1;
 }
+.slide{
+	display: none;
+}
+#next_text{
+	text-align: center;
+	margin-top:200px;
+}
+
+.thumb_container{
+	margin: auto;
+	padding: 5px;
+}
+.thumb_pic{
+
+	height: 120px;
+	background-position: center; 
+	background-size: 350px;
+}
+
+
+
