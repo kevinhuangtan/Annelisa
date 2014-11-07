@@ -7,59 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../../css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="../../css/home.css"rel="stylesheet" media="screen">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-    </script>
-    <script>
-      function getSecondPart(str) {
-        return str.split('#')[1];
-      };   
-
-    </script>
-
-    <script>
-        $(window).load(function(){
-
-          
-          var slide = parseInt(getSecondPart(window.location.href));
-          console.log(slide);
-
-          var anchor = "#" + slide;
-          console.log(anchor);
-          $(anchor).toggle();
-
-          $("#next").click(function(){
-
-            var anchor = "#" + slide;
-            $(anchor).toggle();
-
-
-            slide += 1;
-
-            var anchor = "#" + slide;
-            location.href = anchor;
-            $(anchor).toggle();
-
-          });
-
-          $("#back").click(function(){
-            if (slide>1){
-            
-            var anchor = "#" + slide;
-            $(anchor).toggle();
-
-
-            slide -= 1;
-
-            var anchor = "#" + slide;
-            location.href = anchor;
-            $(anchor).toggle();
-            }
-          });
-
-        });  
-
-
-    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../js/slideshow.js"></script>
 
   </head>
 
@@ -67,7 +16,7 @@
 
   <div class="menu">
       <a href="../../index.html">
-          <img class="signature"src="../../images/signature2.jpg">
+          <img class="signature"src="../../images/signature.png">
       </a>
       <ul class="menu_items">
         <li><a href="../about.html">ABOUT</a></li>
@@ -77,10 +26,8 @@
   </div>
 
 <!--       navigator bars  -->
-<a id="back"><img class="arrow"src="../../images/arrow2.jpg" style="left:7%"></a>
- <a id="next"><img class="arrow"  src="../../images/arrow1.jpg"style="right:7%" > </a> 
-
-
+<a id="back"><img class="arrow-left"src="../../images/arrow2.png"></a>
+<a id="next"><img class="arrow-right"  src="../../images/arrow1.png"> </a> 
   
 
 <!--     slideshow container -->
@@ -101,13 +48,11 @@
 
 
 
-
-
   <!-- description container -->
-    <div style="height:15px"></div> 
-    <div class="art_description_container" style="position:relative; ">
-      <p class="art_description">Annelisa Leinbach<br>Artwork, 201<br>Materials, paintbrush</p>
-    </div>
+  <div style="height:15px"></div> 
+  <div class="art_description_container" style="position:relative; ">
+    <p class="art_description">Annelisa Leinbach<br>Artwork, 201<br>Materials, paintbrush</p>
+  </div>
 
 
 

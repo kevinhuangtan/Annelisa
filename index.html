@@ -7,23 +7,49 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/home.css"rel="stylesheet" media="screen">
+    <script src="js/intro.js"></script>
+    <script>
+
+      function get_cookie_string(str) {
+        return str.split('=')[1];
+      };   
+
+      window.onload=function(){
+
+        console.debug(document.cookie);
+
+        if (!document.cookie){
+              
+              var intro = document.getElementById("intro");
+              var cover = document.getElementById("cover");
+
+              fade_delay(intro);
+              fade_cover_delay(cover);
+              document.cookie="visited=yes";
+        }
+        else{
+          document.getElementById("intro").style.display ='none';
+          document.getElementById("cover").style.display ='none';
+        }
+        };
+    </script>
 
   </head>
 
+
   <body>
 
-
+  <div id="cover"><img id="intro" src="images/signature_movie.jpg"></div>
+  
   <div class="menu">
-
-      <a href="index.html">
-          <img class="signature"src="images/signature2.jpg">
-      </a>
-      <ul class="menu_items">
-        <li><a href="views/about.html">ABOUT</a></li>
-        <li><a href="views/work.html">ARTWORK</a></li>
-        <li><a href="views/contact.html">CONTACT</a></li>
-      </ul>
-
+    <a href="index.html">
+        <img class="signature"src="images/signature.png">
+    </a>
+    <ul class="menu_items">
+      <li><a href="views/about.html">ABOUT</a></li>
+      <li><a href="views/work.html">ARTWORK</a></li>
+      <li><a href="views/contact.html">CONTACT</a></li>
+    </ul>
   </div>
 
   </nav>
@@ -31,7 +57,6 @@
     <div class="container" >
 
           <img id ="al_slideshow" style="height:470px; display:block;margin-left: auto;margin-right: auto;"src="images/cave.jpg"> 
-
     </div>
   </body>
 
