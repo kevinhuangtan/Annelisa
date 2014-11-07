@@ -19,6 +19,7 @@ p{
 }
 #intro{
 	width:100%;
+	display: none;
 }
 .menu{
 	text-align: center;

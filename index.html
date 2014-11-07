@@ -18,21 +18,22 @@
 
         console.debug(document.cookie);
 
-        if (!document.cookie){
-          
-              
+        if (document.cookie){
+              document.getElementById("cover").style.display ='none';
+
+        }
+        else{
+          if (!document.cookie){
+              document.getElementById("intro").style.display ='block';
               var intro = document.getElementById("intro");
               var cover = document.getElementById("cover");
 
               fade_delay(intro);
               fade_cover_delay(cover);
               document.cookie="visited=yes";
+          }
         }
-        else{
-          document.getElementById("intro").style.display ='none';
-          document.getElementById("cover").style.display ='none';
-        }
-        };
+      };
     </script>
 
   </head>
