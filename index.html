@@ -19,6 +19,8 @@
         console.debug(document.cookie);
 
         if (!document.cookie){
+              document.getElementById("intro").style.display ='initial';
+              document.getElementById("cover").style.display ='initial';
               
               var intro = document.getElementById("intro");
               var cover = document.getElementById("cover");
@@ -28,8 +30,7 @@
               document.cookie="visited=yes";
         }
         else{
-          document.getElementById("intro").style.display ='none';
-          document.getElementById("cover").style.display ='none';
+
         }
         };
     </script>
