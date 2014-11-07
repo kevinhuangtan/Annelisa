@@ -9,65 +9,15 @@
     <link href="../../css/home.css"rel="stylesheet" media="screen">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
     </script>
-    <script>
-      function getSecondPart(str) {
-        return str.split('#')[1];
-      };   
-
-    </script>
-
-    <script>
-        $(window).load(function(){
-
-          
-          var slide = parseInt(getSecondPart(window.location.href));
-          console.log(slide);
-
-          var anchor = "#" + slide;
-          console.log(anchor);
-          $(anchor).toggle();
-
-          $("#next").click(function(){
-
-            var anchor = "#" + slide;
-            $(anchor).toggle();
-
-
-            slide += 1;
-
-            var anchor = "#" + slide;
-            location.href = anchor;
-            $(anchor).toggle();
-
-          });
-
-          $("#back").click(function(){
-            if (slide>1){
-            
-            var anchor = "#" + slide;
-            $(anchor).toggle();
-
-
-            slide -= 1;
-
-            var anchor = "#" + slide;
-            location.href = anchor;
-            $(anchor).toggle();
-            }
-          });
-
-        });  
-
-
-    </script>
+    <script src="../../js/slideshow.js"></script>
 
   </head>
 
   <body>
 
   <div class="menu">
-      <a href="../index.html">
-          <img class="signature"src="../../images/signature2.jpg">
+      <a href="../../index.html">
+          <img class="signature"src="../../images/signature.png">
       </a>
       <ul class="menu_items">
         <li><a href="../about.html">ABOUT</a></li>
@@ -76,13 +26,28 @@
       </ul>
   </div>
 
-<!--       navigator bars  -->
-<a id="back"><img class="arrow"src="../../images/arrow2.jpg" style="left:7%"></a>
- <a id="next"><img class="arrow"  src="../../images/arrow1.jpg"style="right:7%" > </a> 
-<!--     slideshow container -->
-    <a id="1" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/1.gif"> </a>
-    <a id="2" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/2.gif"> </a>
-    <a id="3" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/3.gif"> </a>
+  <div class="container">
+
+    <!--       navigator bars  -->
+    <a id="back"><img class="arrow-left"src="../../images/arrow2.png" ></a>
+    <a id="next"><img class="arrow-right"src="../../images/arrow1.png"> </a> 
+
+    <!--     slideshow container -->
+    <a id="1" class= "slide">
+      <img class ="al_slideshow" src="../../images/photography/iceland/1.gif">
+      <p class="art_description">Artwork, 201<br>Materials, paintbrush</p>
+    </a>
+
+    <a id="2" class= "slide">
+      <img class ="al_slideshow" src="../../images/photography/iceland/2.gif"> 
+      <p class="art_description">Artwork #2, 301<br>Materials, something else</p>
+    </a>
+
+    <a id="3" class= "slide">
+      <img class ="al_slideshow" src="../../images/photography/iceland/3.gif"> 
+      <p class="art_description">Artwork #3, 2601<br>Materials, yayyy it works</p>
+    </a>
+    
     <a id="4" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/4.gif"> </a>
     <a id="5" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/5.gif"> </a>
     <a id="6" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/6.gif"> </a>
@@ -93,21 +58,9 @@
     <a id="11" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/11.gif"> </a>
     <a id="12" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/12.gif"> </a>
     <a id="13" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/13.gif"> </a>
-    <a id="14" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/14.gif"> </a>
+    <a id="14" class= "slide"><img class ="al_slideshow" src="../../images/photography/iceland/14.gif"> </a>  
 
-
-
-
-
-
-
-  <!-- description container -->
-    <div style="height:15px"></div> 
-    <div class="art_description_container" style="position:relative; ">
-      <p class="art_description">Annelisa Leinbach<br>Artwork, 201<br>Materials, paintbrush</p>
-    </div>
-
-
+</div>
 
   </body>
 

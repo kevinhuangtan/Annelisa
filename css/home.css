@@ -4,13 +4,21 @@ margin: 0 auto centers thing itself*/
 
 body{
 	padding-top: 15px;
+	overflow: hidden;
 }
 
 p{
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.container-fluid{
-    padding-bottom: 30px;
+
+#cover{
+	position: fixed;
+	height:100%;
+	width:100%;
+	background-color: white;
+}
+#intro{
+	width:100%;
 }
 .menu{
 	text-align: center;
@@ -19,9 +27,10 @@ p{
 .signature{
 	 width:270px;
 }
-
-/*
-about work contact vertical*/
+.signature:hover{
+	opacity :.7;
+}
+/*menu: about work contact vertical*/
 ul{
 
 	display: inline;
@@ -41,12 +50,14 @@ li{
 a{
 	color: black;
 }
-
 a:hover{
-	color: #5C5B5B;
 	text-decoration: none;
+	color: black;
 }
 
+.menu_items a:hover{
+	color: #5C5B5B;
+}
 
 .blocks{
 	height:300px;
@@ -58,10 +69,7 @@ a:hover{
 .work-img{
 	width:100%;
 }
-.dim{
-	background-color: white;
-	opacity: 1;
-}
+
 .dim:hover{
 	opacity:.4;
 }
@@ -79,23 +87,20 @@ a:hover{
     .work-text{
     	font-size:8vw;
     } 
-
 }
-@media (max-width: 930px) {
-
-    .arrow{
-    	bottom: 30px;
+@media (max-width: 1000px) {
+    .arrow-left{
+    	display: none;
+    }
+    .arrow-right{
+    	display: none;
     }
 }
 
-
-
-.art_description_container{
-	width: 100%;
-}
 .art_description{
 	font-style: italic;
 	text-align: center;
+	margin-top: 15px;
 }
 
 .al_slideshow{
@@ -104,27 +109,37 @@ a:hover{
 	margin: auto;
 	z-index: -1;
 }
-.arrow{
-	height:40px;
+.arrow-left{
+	height:50px;
 	position: absolute;
-	margin-top: 180px;
+	margin-top: 200px;
+	left: 40px;
 }
-.arrow:hover{
+.arrow-right{
+	height:50px;
+	position: absolute;
+	margin-top: 200px;
+	right: 40px;
+}
+.arrow-left:hover{
 	cursor:pointer;
+	opacity :.7;
 }
-
+.arrow-right:hover{
+	cursor:pointer;
+	opacity :.7;
+}
 .slide{
 	display: none;
 }
-
 .thumb_container{
 	margin: auto;
 	padding: 5px;
 }
 .thumb_pic{
-
 	height: 120px;
 	background-position: center; 
 	background-size: 350px;
 }
+
 
