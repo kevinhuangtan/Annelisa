@@ -10,7 +10,9 @@ body{
 p{
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
+.container{
+	width:90%;
+}
 #cover{
 	position: fixed;
 	height:100%;
@@ -83,11 +85,15 @@ a:hover{
 }
 @media (max-width: 620px) {
     .menu_items {
-    	display: none;
+    	display: block;
     }
     .work-text{
     	font-size:8vw;
     } 
+    .al_slideshow{
+    	width:410px;
+    	height:auto!important;
+    }
 }
 @media (max-width: 1000px) {
     .arrow-left{
@@ -109,6 +115,7 @@ a:hover{
 	height:420px;
 	margin: auto;
 	z-index: -1;
+	margin-top: 5px;
 }
 .arrow-left{
 	height:50px;
