@@ -83,24 +83,6 @@ a:hover{
 	font-size: 3vw;
 	font-weight: bold;
 }
-@media (max-width: 620px) {
-    .menu_items {
-    	display: block;
-    }
-    .work-text{
-    	font-size:8vw;
-    } 
-    .al_slideshow{
-    	width:420px;
-    	height:auto!important;
-    }
-}
-@media (max-device-width: 580px){
-    .al_slideshow{
-    	width:410px;
-    	height:auto!important;
-    }
-}
 
 @media (max-width: 1000px) {
     .arrow-left{
@@ -110,6 +92,24 @@ a:hover{
     	display: none;
     }
 }
+
+@media (max-width: 620px) {
+    .menu_items {
+    	display: block;
+    }
+    .work-text{
+    	font-size:8vw;
+    } 
+    .al_slideshow{
+    	width:420px;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px){
+    .al_slideshow{
+    	width:420px;
+    }
+}
+
 
 .art_description{
 	font-style: italic;
