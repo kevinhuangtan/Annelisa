@@ -105,9 +105,10 @@ a:hover{
     	height: auto !important;
     }
 }
-@media only screen and (max-device-width : 320px) {
+@media only screen and (max-device-width : 340px) {
     .al_slideshow{
-    	width:300px;
+    	width:280px;
+    	height: auto !important;
     }
 }
 
