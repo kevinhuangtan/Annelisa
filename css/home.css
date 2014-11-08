@@ -83,7 +83,7 @@ a:hover{
 	font-size: 3vw;
 	font-weight: bold;
 }
-@media (max-width: 620px) {
+@media (max-width: 620px) and (max-device-width: 480px){
     .menu_items {
     	display: block;
     }
@@ -95,6 +95,7 @@ a:hover{
     	height:auto!important;
     }
 }
+
 @media (max-width: 1000px) {
     .arrow-left{
     	display: none;
