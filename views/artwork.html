@@ -14,13 +14,36 @@
     <script>
       $(window).load(function(){
 
+        // hover show text
+        $(document).on('mouseover',function(e) {
+          var id_pic = $(e.target).attr('id');
+          var class_pic  = $(e.target).attr('class');
+          console.log(class_pic);
+          if (class_pic=="work-img"){
+            if (id_pic=="photography"){
+               $("#photography-text").show();
+            }
+            if (id_pic=="painting"){
+               $("#painting-text").show();
+            }
+            if (id_pic=="illustration"){
+               $("#illustration-text").show();
+            }
+          }
+          else{
+            $("#photography-text").hide();
+            $("#illustration-text").hide();
+            $("#painting-text").hide();
+          }
+        });
 
+        //size text 
         height = $(".work-img").height()/2.8;
         height_painting = $(".work-img").height()/5.3;
         width = $(".work-img").width();
 
         $(".work-text").css('margin-top', height+'px')
-        $("#painting").css('margin-top', height_painting+'px')
+        $("#painting-text").css('margin-top', height_painting+'px')
         $(".work-text").css('width', width+'px')
 
         // size text 
@@ -28,29 +51,11 @@
           height = $(".work-img").height()/2.8;
         $(".work-text").css('margin-top', height+'px')
         });
-
-
-        $("#photography-pic").hover(function(){
-          $("#photography").toggle();
-        });
-        $("#painting-pic").hover(function(){
-          $("#painting").toggle();
-        });
-        $("#illustration-pic").hover(function(){
-          $("#illustration").toggle();
-        });
-
-        //size middle text
-
-
         $(window).resize(function(){
           height_painting = $(".work-img").height()/5.3;
-          $("#painting").css('margin-top', height_painting+'px')
+          $("#painting-text").css('margin-top', height_painting+'px')
         });
-
         //size width text-align:center works!
-
-
         $(window).resize(function(){
           width = $(".work-img").width();
           $(".work-text").css('width', width+'px')
@@ -80,29 +85,29 @@
 
 
             <div class="col-sm-4 blocks">
-                <p id="photography" class="work-text" >PHOTOGRAPHY</p>
+                <p id="photography-text" class="work-text" >PHOTOGRAPHY</p>
               <a href="photography/photography_categories.html">
               <div  id="photography-pic" class="dim">
-                <img src="../images/iceland.jpg" class="work-img" >
+                <img src="../images/photography/southwest/15.gif" id="photography" class="work-img" >
               </div>
               </a>
 
             </div>
 
             <div class="col-sm-4 blocks">     
-                <p id="painting" class="work-text">PAINTING<br> AND <br>DRAWING</p>
+                <p id="painting-text" class="work-text">PAINTING<br> AND <br>DRAWING</p>
               <a href="painting/painting_thumbnail.html">
               <div id="painting-pic" class="dim">
-                <img src="../images/tempest.jpg" class="work-img">
+                <img src="../images/tempest.jpg" id="painting"class="work-img">
               </div>
               </a>
             </div>
 
             <div class="col-sm-4 blocks">
-                <p id="illustration" class="work-text"> ILLUSTRATION</p>
+                <p id="illustration-text" class="work-text"> ILLUSTRATION</p>
                 <a href="illustration/illustration_thumbnail.html">
                 <div id="illustration-pic" class="dim">
-                  <img src="../images/leaf_tapestry4.jpg" class="work-img">
+                  <img src="../images/illustration/illustration_cover.gif" id ="illustration"class="work-img">
                 </div>
               </a>
             </div>

@@ -19,7 +19,7 @@
 	font-size: 3vw;
 	font-weight: bold;
 }
-@media (max-width: 620px) {
+@media (max-width: 500px) {
     .work-text{
     	font-size:8vw;
     } 

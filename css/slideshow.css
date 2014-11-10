@@ -5,6 +5,7 @@
 	z-index: -1;
 	margin-top: 0px;
 }
+
 .arrow-left{
 	height:50px;
 	position: absolute;
@@ -35,9 +36,30 @@
 }
 @media only screen and (max-device-width : 340px) {
     .al_slideshow{
+    	margin-top: 15px;
     	width:280px;
     	height: auto !important;
     }
+}
+@media (max-width: 620px) {
+    .al_slideshow{
+    	margin-top: 15px;
+    	
+    	height: 250px;
+    }
+    .arrow-left{
+    	display: block!important;
+    	height:35px;
+    	margin-top: 300px;
+    	left: 60px;
+    }
+    .arrow-right{
+    	display: block!important;
+    	height:35px;
+    	margin-top: 300px;
+    	right: 60px;
+    }
+
 }
 @media (max-width: 850px) {
     .arrow-left{
@@ -45,11 +67,5 @@
     }
     .arrow-right{
     	display: none;
-    }
-}
-@media (max-width: 620px) {
-    .al_slideshow{
-    	width:420px;
-    	height: auto !important;
     }
 }
