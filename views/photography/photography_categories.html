@@ -20,16 +20,28 @@
           console.log(class_pic);
           if (class_pic=="work-img"){
             if (id_pic=="iceland"){
-               $("#iceland-text").show();
+              $("#iceland-text").show();
+              $("#israel-text").hide();
+              $("#art-text").hide();
+              $("#south-text").hide();
             }
             if (id_pic=="israel"){
-               $("#israel-text").show();
-            }
+              $("#israel-text").show();
+              $("#iceland-text").hide();
+              $("#art-text").hide();
+              $("#south-text").hide();
+          }
             if (id_pic=="art"){
-               $("#art-text").show();
+              $("#art-text").show();
+              $("#iceland-text").hide();
+              $("#israel-text").hide();
+              $("#south-text").hide();
             }
             if (id_pic=="southwest"){
-               $("#south-text").show();
+              $("#south-text").show();
+              $("#iceland-text").hide();
+              $("#israel-text").hide();
+              $("#art-text").hide();
             }
           }
           else{

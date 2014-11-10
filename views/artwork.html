@@ -21,13 +21,20 @@
           console.log(class_pic);
           if (class_pic=="work-img"){
             if (id_pic=="photography"){
-               $("#photography-text").show();
+              $("#photography-text").show();
+              $("#illustration-text").hide();
+              $("#painting-text").hide();
             }
             if (id_pic=="painting"){
-               $("#painting-text").show();
+              $("#painting-text").show();
+              $("#photography-text").hide();
+              $("#illustration-text").hide();
+
             }
             if (id_pic=="illustration"){
-               $("#illustration-text").show();
+              $("#illustration-text").show();
+              $("#photography-text").hide();
+              $("#painting-text").hide();
             }
           }
           else{
@@ -46,7 +53,7 @@
         $("#painting-text").css('margin-top', height_painting+'px')
         $(".work-text").css('width', width+'px')
 
-        // size text 
+        // size text on resize
         $(window).resize(function(){
           height = $(".work-img").height()/2.8;
         $(".work-text").css('margin-top', height+'px')
