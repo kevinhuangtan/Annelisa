@@ -4,7 +4,7 @@ margin: 0 auto centers thing itself*/
 
 body{
 	padding-top: 15px;
-	overflow: hidden;
+
 }
 
 p{
@@ -25,10 +25,10 @@ p{
 }
 .menu{
 	text-align: center;
-	height: 140px;
+	height: 110px;
 }
 .signature{
-	 width:270px;
+	 width:200px;
 }
 .signature:hover{
 	opacity :.7;
@@ -62,93 +62,15 @@ a:hover{
 	color: #5C5B5B;
 }
 
-.blocks{
-	height:300px;
-	padding-left:10px;
-	padding-right: 10px;
-    text-align: center;
-}
-
-.work-img{
-	width:100%;
-}
-
-.dim:hover{
-	opacity:.4;
-}
-
-.work-text{
-	position: absolute;
-	display:none;
-	font-size: 3vw;
-	font-weight: bold;
-}
-
-@media (max-width: 1000px) {
-    .arrow-left{
-    	display: none;
-    }
-    .arrow-right{
-    	display: none;
-    }
-}
 
 @media (max-width: 620px) {
     .menu_items {
     	display: block;
     }
-    .work-text{
-    	font-size:8vw;
-    } 
-    .al_slideshow{
-    	width:420px;
-    	height: auto !important;
-    }
-}
-@media only screen and (max-device-width : 340px) {
-    .al_slideshow{
-    	width:280px;
-    	height: auto !important;
-    }
+
 }
 
 
-.art_description{
-	font-style: italic;
-	text-align: center;
-	margin-top: 15px;
-}
-
-.al_slideshow{
-	display: block;
-	height:420px;
-	margin: auto;
-	z-index: -1;
-	margin-top: 5px;
-}
-.arrow-left{
-	height:50px;
-	position: absolute;
-	margin-top: 200px;
-	left: 40px;
-}
-.arrow-right{
-	height:50px;
-	position: absolute;
-	margin-top: 200px;
-	right: 40px;
-}
-.arrow-left:hover{
-	cursor:pointer;
-	opacity :.7;
-}
-.arrow-right:hover{
-	cursor:pointer;
-	opacity :.7;
-}
-.slide{
-	display: none;
-}
 .thumb_container{
 	margin: auto;
 	padding: 5px;
@@ -156,7 +78,7 @@ a:hover{
 .thumb_pic{
 	height: 120px;
 	background-position: center; 
-	background-size: 350px;
+	background-size: 300px;
 }
 
 

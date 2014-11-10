@@ -1,0 +1,26 @@
+
+.blocks{
+	padding-left:10px;
+	padding-right: 10px;
+    text-align: center;
+}
+
+.work-img{
+	width:100%;
+}
+
+.dim:hover{
+	opacity:.4;
+}
+
+.work-text{
+	position: absolute;
+	display:none;
+	font-size: 3vw;
+	font-weight: bold;
+}
+@media (max-width: 620px) {
+    .work-text{
+    	font-size:8vw;
+    } 
+}
