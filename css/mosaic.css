@@ -1,0 +1,136 @@
+.mos_container{
+	margin: auto;
+	padding: 0px;
+
+}
+.mos_pic{
+	height: 60px;
+	background-position: center; 
+	background-size: 300px;
+	opacity:0;
+}
+.mos_pic:hover{
+	opacity:.5;
+}
+.row{
+}
+.reveal{
+
+}
+#thumb1{background-image: url('../images/photography/iceland/thumbnails/thumb1.gif')}
+#thumb2{background-image: url('../images/photography/iceland/thumbnails/thumb2.gif')}
+#thumb3{background-image: url('../images/photography/iceland/thumbnails/thumb3.gif')}
+#thumb4{background-image: url('../images/photography/iceland/thumbnails/thumb4.gif')}
+#thumb5{background-image: url('../images/photography/iceland/thumbnails/thumb5.gif')}
+#thumb6{background-image: url('../images/photography/iceland/thumbnails/thumb6.gif')}
+#thumb7{background-image: url('../images/photography/iceland/thumbnails/thumb7.gif')}
+#thumb8{background-image: url('../images/photography/iceland/thumbnails/thumb8.gif')}
+#thumb9{background-image: url('../images/photography/iceland/thumbnails/thumb9.gif')}
+#thumb10{background-image: url('../images/photography/iceland/thumbnails/thumb10.gif')}
+#thumb11{background-image: url('../images/photography/iceland/thumbnails/thumb11.gif')}
+#thumb12{background-image: url('../images/photography/iceland/thumbnails/thumb12.gif')}
+#thumb13{background-image: url('../images/photography/iceland/thumbnails/thumb13.gif')}
+#thumb14{background-image: url('../images/photography/iceland/thumbnails/thumb14.gif')}
+#thumb15{background-image: url('../images/photography/iceland/thumbnails/thumb15.gif')}
+#thumb16{background-image: url('../images/photography/iceland/thumbnails/thumb16.gif')}
+#thumb17{background-image: url('../images/photography/iceland/thumbnails/thumb17.gif')}
+#thumb18{background-image: url('../images/photography/iceland/thumbnails/thumb18.gif')}
+#thumb19{background-image: url('../images/photography/iceland/thumbnails/thumb19.gif')}
+#thumb20{background-image: url('../images/photography/iceland/thumbnails/thumb20.gif')}
+#thumb21{background-image: url('../images/photography/iceland/thumbnails/thumb21.gif')}
+#thumb22{background-image: url('../images/photography/iceland/thumbnails/thumb22.gif')}
+#thumb23{background-image: url('../images/photography/iceland/thumbnails/thumb23.gif')}
+#thumb24{background-image: url('../images/photography/southwest/thumbnails/thumb1.gif')}
+
+#thumb25{background-image: url('../images/illustration/thumbnails/thumb2.gif')}
+#thumb26{background-image: url('../images/illustration/thumbnails/thumb3.gif')}
+#thumb27{background-image: url('../images/illustration/thumbnails/thumb4.gif')}
+#thumb28{background-image: url('../images/illustration/thumbnails/thumb5.gif')}
+#thumb29{background-image: url('../images/illustration/thumbnails/thumb6.gif')}
+#thumb30{background-image: url('../images/illustration/thumbnails/thumb7.gif')}
+#thumb31{background-image: url('../images/illustration/thumbnails/thumb8.gif')}
+#thumb32{background-image: url('../images/illustration/thumbnails/thumb9.gif')}
+#thumb33{background-image: url('../images/illustration/thumbnails/thumb10.gif')}
+#thumb34{background-image: url('../images/illustration/thumbnails/thumb11.gif')}
+#thumb35{background-image: url('../images/illustration/thumbnails/thumb12.gif')}
+#thumb36{background-image: url('../images/illustration/thumbnails/thumb13.gif')}
+#thumb37{background-image: url('../images/illustration/thumbnails/thumb14.gif')}
+
+#thumb38{background-image: url('../images/photography/southwest/thumbnails/thumb20.gif')}
+#thumb39{background-image: url('../images/photography/southwest/thumbnails/thumb21.gif')}
+#thumb40{background-image: url('../images/photography/southwest/thumbnails/thumb22.gif')}
+#thumb41{background-image: url('../images/photography/southwest/thumbnails/thumb23.gif')}
+#thumb42{background-image: url('../images/photography/southwest/thumbnails/thumb1.gif')}
+#thumb43{background-image: url('../images/photography/southwest/thumbnails/thumb2.gif')}
+#thumb44{background-image: url('../images/photography/southwest/thumbnails/thumb3.gif')}
+#thumb45{background-image: url('../images/photography/southwest/thumbnails/thumb4.gif')}
+#thumb46{background-image: url('../images/photography/southwest/thumbnails/thumb5.gif')}
+#thumb47{background-image: url('../images/photography/southwest/thumbnails/thumb6.gif')}
+#thumb48{background-image: url('../images/photography/southwest/thumbnails/thumb7.gif')}
+#thumb49{background-image: url('../images/photography/southwest/thumbnails/thumb8.gif')}
+#thumb50{background-image: url('../images/photography/southwest/thumbnails/thumb9.gif')}
+#thumb51{background-image: url('../images/photography/southwest/thumbnails/thumb10.gif')}
+#thumb52{background-image: url('../images/photography/southwest/thumbnails/thumb11.gif')}
+#thumb53{background-image: url('../images/photography/southwest/thumbnails/thumb12.gif')}
+#thumb54{background-image: url('../images/photography/southwest/thumbnails/thumb13.gif')}
+#thumb55{background-image: url('../images/photography/southwest/thumbnails/thumb14.gif')}
+
+#thumb56{background-image: url('../images/photography/israel/thumbnails/thumb20.gif')}
+#thumb57{background-image: url('../images/photography/israel/thumbnails/thumb21.gif')}
+#thumb58{background-image: url('../images/photography/israel/thumbnails/thumb22.gif')}
+#thumb59{background-image: url('../images/photography/israel/thumbnails/thumb23.gif')}
+#thumb60{background-image: url('../images/photography/israel/thumbnails/thumb1.gif')}
+#thumb61{background-image: url('../images/photography/israel/thumbnails/thumb2.gif')}
+#thumb62{background-image: url('../images/photography/israel/thumbnails/thumb3.gif')}
+#thumb63{background-image: url('../images/photography/israel/thumbnails/thumb4.gif')}
+#thumb64{background-image: url('../images/photography/israel/thumbnails/thumb5.gif')}
+#thumb65{background-image: url('../images/photography/israel/thumbnails/thumb6.gif')}
+#thumb66{background-image: url('../images/photography/israel/thumbnails/thumb7.gif')}
+#thumb67{background-image: url('../images/photography/israel/thumbnails/thumb8.gif')}
+#thumb68{background-image: url('../images/photography/israel/thumbnails/thumb9.gif')}
+#thumb69{background-image: url('../images/photography/israel/thumbnails/thumb10.gif')}
+#thumb70{background-image: url('../images/photography/israel/thumbnails/thumb11.gif')}
+
+#thumb71{background-image: url('../images/photography/iceland/thumbnails/thumb1.gif')}
+#thumb72{background-image: url('../images/photography/iceland/thumbnails/thumb2.gif')}
+#thumb73{background-image: url('../images/photography/iceland/thumbnails/thumb3.gif')}
+#thumb74{background-image: url('../images/photography/iceland/thumbnails/thumb7.gif')}
+#thumb75{background-image: url('../images/photography/iceland/thumbnails/thumb8.gif')}
+#thumb76{background-image: url('../images/photography/iceland/thumbnails/thumb9.gif')}
+
+#thumb77{background-image: url('../images/photography/iceland/thumbnails/thumb10.gif')}
+#thumb78{background-image: url('../images/photography/iceland/thumbnails/thumb11.gif')}
+#thumb79{background-image: url('../images/photography/iceland/thumbnails/thumb12.gif')}
+#thumb80{background-image: url('../images/photography/iceland/thumbnails/thumb13.gif')}
+#thumb81{background-image: url('../images/photography/artphotos/thumbnails/thumb2.gif')}
+#thumb82{background-image: url('../images/photography/artphotos/thumbnails/thumb3.gif')}
+#thumb83{background-image: url('../images/photography/artphotos/thumbnails/thumb4.gif')}
+#thumb84{background-image: url('../images/photography/artphotos/thumbnails/thumb5.gif')}
+#thumb85{background-image: url('../images/photography/artphotos/thumbnails/thumb6.gif')}
+
+#thumb86{background-image: url('../images/painting/thumbnails/thumb7.gif')}
+#thumb87{background-image: url('../images/painting/thumbnails/thumb8.gif')}
+#thumb88{background-image: url('../images/painting/thumbnails/thumb9.gif')}
+#thumb89{background-image: url('../images/painting/thumbnails/thumb10.gif')}
+#thumb90{background-image: url('../images/painting/thumbnails/thumb11.gif')}
+#thumb91{background-image: url('../images/painting/thumbnails/thumb7.gif')}
+#thumb92{background-image: url('../images/painting/thumbnails/thumb8.gif')}
+#thumb93{background-image: url('../images/painting/thumbnails/thumb9.gif')}
+#thumb94{background-image: url('../images/painting/thumbnails/thumb10.gif')}
+#thumb95{background-image: url('../images/painting/thumbnails/thumb11.gif')}
+#thumb96{background-image: url('../images/painting/thumbnails/thumb12.gif')}
+
+#thumb97{background-image: url('../images/illustration/thumbnails/thumb7.gif')}
+#thumb98{background-image: url('../images/illustration/thumbnails/thumb8.gif')}
+#thumb99{background-image: url('../images/illustration/thumbnails/thumb9.gif')}
+#thumb100{background-image: url('../images/illustration/thumbnails/thumb10.gif')}
+#thumb101{background-image: url('../images/illustration/thumbnails/thumb11.gif')}
+#thumb102{background-image: url('../images/illustration/thumbnails/thumb12.gif')}
+#thumb103{background-image: url('../images/illustration/thumbnails/thumb13.gif')}
+#thumb104{background-image: url('../images/illustration/thumbnails/thumb14.gif')}
+#thumb105{background-image: url('../images/illustration/thumbnails/thumb15.gif')}
+#thumb106{background-image: url('../images/illustration/thumbnails/thumb16.gif')}
+#thumb107{background-image: url('../images/illustration/thumbnails/thumb17.gif')}
+#thumb108{background-image: url('../images/illustration/thumbnails/thumb18.gif')}
+
+
