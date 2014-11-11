@@ -9,71 +9,9 @@
     <link href="../../css/home.css"rel="stylesheet" media="screen">
     <link href="../../css/categories.css"rel="stylesheet" media="screen">
     <link rel="icon" href="../../favicon.ico">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-    </script>
-    <script>
-      $(window).load(function(){
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>   
+    <script src="../../js/hover_photography.js"></script>
 
-
-        $(document).on('mouseover',function(e) {
-          var id_pic = $(e.target).attr('id');
-          var class_pic  = $(e.target).attr('class');
-          if (class_pic=="work-img"){
-            if (id_pic=="iceland"){
-              $("#iceland-text").show();
-              $("#israel-text").hide();
-              $("#art-text").hide();
-              $("#south-text").hide();
-            }
-            if (id_pic=="israel"){
-              $("#israel-text").show();
-              $("#iceland-text").hide();
-              $("#art-text").hide();
-              $("#south-text").hide();
-          }
-            if (id_pic=="art"){
-              $("#art-text").show();
-              $("#iceland-text").hide();
-              $("#israel-text").hide();
-              $("#south-text").hide();
-            }
-            if (id_pic=="southwest"){
-              $("#south-text").show();
-              $("#iceland-text").hide();
-              $("#israel-text").hide();
-              $("#art-text").hide();
-            }
-          }
-          else{
-            $("#iceland-text").hide();
-            $("#israel-text").hide();
-            $("#art-text").hide();
-            $("#south-text").hide();
-          }
-        });
-
-
-        height = $(".work-img").height()/2.8;
-        width = $(".work-img").width();
-
-        $(".work-text").css('margin-top', height+'px')
-        $(".work-text").css('width', width+'px')
-
-        // size text 
-        $(window).resize(function(){
-          height = $(".work-img").height()/2.8;
-        $(".work-text").css('margin-top', height+'px')
-        });
-        //size width text-align:center works!
-
-
-        $(window).resize(function(){
-          width = $(".work-img").width();
-          $(".work-text").css('width', width+'px')
-        });
-
-      });
-    </script>
 
   </head>
 
@@ -90,9 +28,9 @@
       </ul>
   </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="width:90%">
 
-      <div style="height:30px"></div>
+
 
         <div class="row">
             <div class="col-sm-offset-2 col-sm-4 blocks">
@@ -135,8 +73,6 @@
               </a>
             </div>
     </div>
-      <div style="height:40px"></div>
-
     </div>
 
   </body>

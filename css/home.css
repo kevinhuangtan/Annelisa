@@ -4,7 +4,6 @@ margin: 0 auto centers thing itself*/
 
 body{
 	padding-top: 15px;
-
 }
 
 p{
@@ -79,6 +78,9 @@ a:hover{
 	height: 120px;
 	background-position: center; 
 	background-size: 300px;
+}
+.thumb_pic:hover{
+	opacity: .4;
 }
 
 
