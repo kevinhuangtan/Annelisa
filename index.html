@@ -12,45 +12,7 @@
     <link rel="shortcut icon" href="favicon.ico"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/intro.js"></script>
-    <script>
-    //store cookies for intro
-      function get_cookie_string(str) {
-        return str.split('=')[1];
-      };   
-      window.onload=function(){
-        if (document.cookie){
-              document.getElementById("cover").style.display ='none';
-        }
-        else{
-          if (!document.cookie){
-              document.getElementById("intro").style.display ='block';
-              var intro = document.getElementById("intro");
-              var cover = document.getElementById("cover");
-
-              fade_delay(intro);
-              fade_cover_delay(cover);
-              document.cookie="visited=yes";
-          }
-        }
-      };
-    </script>
-
-    <script>
-    //reveal mosaic
-    var revealed = 0;
-    $(document).on('mouseover',function(e) {
-          var class_pic  = $(e.target).attr('class');
-
-          if (class_pic=="mos_pic reveal"){
-            $(e.target).css('opacity', '1');
-            revealed +=1;
-            // if (revealed>46){
-            //   console.log('yay');
-            //     $(".back").css('opacity','.00');
-            // };
-          };
-        });
-    </script>
+    <script src="js/mosaic.js"></script>
   </head>
 
   <body>
@@ -68,7 +30,7 @@
       </ul>
   </div>
 
-    <div class="container" id="home-container">
+    <div class="container-fluid"id="home-container">
        <!--    <img class ="al_slideshow"src="images/cave.jpg">  -->
         <div class ="row">
           <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb1"></div></div>
