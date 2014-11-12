@@ -64,8 +64,23 @@ a:hover{
 
 
 @media (max-width: 620px) {
+
     .menu_items {
     	display: block;
+    }
+    ul{
+    	padding-top: 10px;
+    }
+    #home-container{
+    	width:320px;
+    }
+    .container{
+    	margin-top:15px;
+    	margin-bottom:15px;
+    }
+    .container-fluid{
+    	margin-top:15px;
+    	margin-bottom:15px;
     }
 
 }

@@ -3,6 +3,7 @@
 	padding-left:10px;
 	padding-right: 10px;
     text-align: center;
+    padding-top: 10px;
 }
 
 .work-img{
@@ -19,9 +20,22 @@
 	font-size: 3vw;
 	font-weight: bold;
 }
+#mobile-padding-1{
+	height:40px;
+}
+#mobile-padding-3{
+	height:20px;
+}
 
 @media (max-width: 500px) {
     .work-text{
     	font-size:8vw;
     } 
+    #mobile-padding-1{
+		height:0px;
+	}
+    #mobile-padding-3{
+    	height:0px;
+    }
+
 }
