@@ -38,7 +38,8 @@
 @media (max-width: 620px) {
     .al_slideshow{
     	margin-top: 15px;
-    	height: 160px;
+    	width: 300px;
+        height:auto;
     }
     .arrow-left{
     	display: block!important;
@@ -51,6 +52,9 @@
     	height:35px;
     	margin-top: 85%;
     	right: 5%;
+    }
+    .art_description{
+        display: none;
     }
 
 }

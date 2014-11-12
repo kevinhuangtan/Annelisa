@@ -1,0 +1,12 @@
+// var revealed = 0;
+// $(document).on('mouseover',function(e) {
+//   var class_pic  = $(e.target).attr('class');
+
+//   if (class_pic=="mos_pic reveal"){
+//     $(e.target).css('opacity', '1');
+//     revealed +=1;
+//     if (revealed>210){
+//       console.log('yay');
+//     };
+//   };
+// });

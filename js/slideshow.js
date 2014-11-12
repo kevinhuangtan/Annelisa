@@ -41,6 +41,7 @@ $(window).load(function(){
     }
   });
 
+
   //navigate with keys
   $(function(){
   $('html').keydown(function(e){
