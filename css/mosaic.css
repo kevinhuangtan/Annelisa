@@ -17,6 +17,13 @@
 .reveal{
 
 }
+
+@media (max-width: 620px) {
+    .mos_pic{
+		height: 27px!important;
+	}
+
+}
 #thumb1{background-image: url('../images/photography/iceland/thumbnails/thumb1.gif')}
 #thumb2{background-image: url('../images/photography/iceland/thumbnails/thumb2.gif')}
 #thumb3{background-image: url('../images/photography/iceland/thumbnails/thumb3.gif')}
