@@ -21,13 +21,13 @@
 function fade_delay(element) {
     var timer = setTimeout(function () {
         fade(element);
-    }, .2000);
+    }, 2000);
   }
 function fade_cover_delay(element) {
     var op = 1;  // initial opacity
     var timer = setTimeout(function () {
         fade_cover(element);
-    }, .3150);
+    }, 3150);
   }
 
   function fade(element) {
@@ -40,7 +40,7 @@ function fade_cover_delay(element) {
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op -= op * 0.1;
-    }, .30);
+    }, 30);
   } 
   
   function fade_cover(element) {
@@ -53,5 +53,5 @@ function fade_cover_delay(element) {
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op -= op * 0.1;
-    }, .20);
+    }, 20);
   } 
