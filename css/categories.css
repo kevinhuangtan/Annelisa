@@ -1,16 +1,56 @@
 
 .blocks{
-	padding-left:10px;
-	padding-right: 10px;
     text-align: center;
-    padding-top: 10px;
+
+}
+.category{
+    height:18vw;
 }
 
 .work-img{
 	width:100%;
 }
 
-.dim:hover{
+/*artwork page*/
+#photography-pic{
+    background: url('../images/photography/southwest/15.gif');
+    background-position: center; 
+    background-size: 350px;
+}
+#painting-pic{
+    background: url('../images/tempest.jpg');
+    background-position: center; 
+    background-size: 350px;
+}
+#illustration-pic{
+    background: url('../images/illustration/illustration_cover.gif');
+    background-position: center; 
+    background-size: 350px;
+}
+
+/*photography page*/
+#iceland-pic{
+    background: url('../images/photography/iceland/1.gif');
+    background-position: center; 
+    background-size: 500px;
+}
+#israel-pic{
+    background: url('../images/photography/israel/27.gif');
+    background-position: center; 
+    background-size: 400px;
+}
+#art-pic{
+    background: url('../images/photography/artphotos/artphotos_cover.gif');
+    background-position: center; 
+    background-size: 400px;
+}
+#south-pic{
+    background: url('../images/photography/southwest/9.gif');
+    background-position: center; 
+    background-size: 400px;
+}
+
+.category:hover{
 	opacity:.4;
 }
 
@@ -43,3 +83,4 @@
     }
 
 }
+

@@ -13,6 +13,23 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/intro.js"></script>
     <script src="js/mosaic.js"></script>
+    <script>
+    $(window).load(function(){
+    var numbers = [];
+    while (numbers.length < 96) {
+        // ParseInt for rounding. Real random numbers are 99 starting on 1.
+        var number = Math.floor(Math.random() * 102 + 1); ; 
+        console.log(number);
+
+        // save the number into an array and avoid duplicated.
+        if( $.inArray(number, numbers) == -1 ){
+            numbers.push(number);
+            var newid = "thumb" + number;
+            $("#thumb").attr("id",newid);
+        }
+    }
+     });
+    </script>
   </head>
 
   <body>
@@ -33,132 +50,118 @@
     <div class="container-fluid"id="home-container">
        <!--    <img class ="al_slideshow"src="images/cave.jpg">  -->
         <div class ="row">
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb1"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb2"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb3"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb4"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb5"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb6"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb7"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb8"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb9"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb10"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb11"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb12"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
         </div>
         <div class = "row">
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb13"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb14"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb15"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb16"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb17"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb18"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb19"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb20"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb21"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb22"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb23"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb24"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
         </div>
         <div class = "row" >
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb25"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb26"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb27"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb28"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb29"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb30"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb31"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb32"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb33"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb34"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb35"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb36"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
         </div>
         <div class = "row" >
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb37"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb38"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb39"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb40"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb41"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb42"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb43"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb44"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb45"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb46"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb47"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb48"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
         </div>
         <div class = "row" >
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb49"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb50"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb51"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb52"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb53"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb54"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb55"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb56"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb57"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb58"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb59"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb60"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
         </div>
         <div class = "row" >
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb61"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb62"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb63"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb64"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb65"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb66"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb67"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb68"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb69"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb70"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb71"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb72"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
         </div>
         <div class = "row" >
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb73"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb74"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb75"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb76"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb77"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb78"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb79"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb80"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb81"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb82"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb83"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb84"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
         </div>
         <div class = "row" >
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb85"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb86"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb87"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb88"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb89"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb90"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb91"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb92"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb93"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb94"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb95"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb96"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic back" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
+          <div class="mos_container col-xs-1"><div class = "mos_pic reveal" id="thumb"></div></div>
         </div>
-<!--         <div class = "row" >
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb97"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb98"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb99"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb100"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb101"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb102"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb103"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb104"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb105"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb106"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb107"></div></div>
-          <div class="mos_container col-xs-1"><div class = "mos_pic" id="thumb108"></div></div>
 
-        </div> -->
         <div style="height:20px"></div>
     </div>
   </body>
