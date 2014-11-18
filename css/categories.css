@@ -1,14 +1,20 @@
-
-.blocks{
-    text-align: center;
-
-}
-.category{
-    height:18vw;
+.category:hover{
+    opacity: .99;
 }
 
 .work-img{
 	width:100%;
+}
+.category{
+    height:18vw;
+    opacity:.4;
+}
+
+.work-text{
+    font-size: 3vw;
+    font-weight: bold;
+    position: absolute;
+     text-align: center;
 }
 
 /*artwork page*/
@@ -30,12 +36,12 @@
 
 /*photography page*/
 #iceland-pic{
-    background: url('../images/photography/iceland/1.gif');
+    background: url('../images/photography/iceland/15.gif');
     background-position: center; 
     background-size: 500px;
 }
 #israel-pic{
-    background: url('../images/photography/israel/27.gif');
+    background: url('../images/photography/israel/13.gif');
     background-position: center; 
     background-size: 400px;
 }
@@ -50,16 +56,7 @@
     background-size: 400px;
 }
 
-.category:hover{
-	opacity:.4;
-}
 
-.work-text{
-	position: absolute;
-	display:none;
-	font-size: 3vw;
-	font-weight: bold;
-}
 #mobile-padding-1{
 	height:40px;
 }
