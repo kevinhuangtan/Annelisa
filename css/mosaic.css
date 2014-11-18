@@ -6,7 +6,7 @@
 .mos_pic{
 	height: 60px;
 	background-position: center; 
-	background-size: 180px;
+	background-size: 200px;
 	opacity:.00;
 }
 .mos_pic:hover{

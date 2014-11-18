@@ -1,37 +1,55 @@
+
 .category:hover{
     opacity: .99;
 }
+.blocks{
+    height:18vw;
+    overflow: hidden;
+/*    background-color: blue;*/
 
-.work-img{
-	width:100%;
 }
 .category{
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+
+    /* size*/    
     height:18vw;
+   /* spacing*/
+    width:94%;
     opacity:.4;
 }
 
 .work-text{
     font-size: 3vw;
     font-weight: bold;
-    position: absolute;
-     text-align: center;
+    text-align: center;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    width: 100%;
+    display: table;
 }
 
 /*artwork page*/
 #photography-pic{
-    background: url('../images/photography/southwest/15.gif');
+    background: url('../images/photography/southwest/9.gif');
     background-position: center; 
-    background-size: 350px;
+    background-size: 380px;
 }
 #painting-pic{
     background: url('../images/tempest.jpg');
     background-position: center; 
-    background-size: 350px;
+    background-size: 380px;
 }
 #illustration-pic{
     background: url('../images/illustration/illustration_cover.gif');
     background-position: center; 
-    background-size: 350px;
+    background-size: 380px;
 }
 
 /*photography page*/
@@ -51,7 +69,7 @@
     background-size: 400px;
 }
 #south-pic{
-    background: url('../images/photography/southwest/9.gif');
+    background: url('../images/photography/southwest/21.gif');
     background-position: center; 
     background-size: 400px;
 }
@@ -66,7 +84,7 @@
 
 @media (max-width: 500px) {
     .work-text{
-    	font-size:8vw;
+    	font-size:7vw;
     } 
     #mobile-padding-1{
 		height:0px;
@@ -75,9 +93,18 @@
     	height:0px;
     }
     .blocks{
+        width:80%;
+        height:110px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 20px;
+    }
+    .category{
     	padding-left:20px;
     	padding-right:20px;
+        height:110px;
     }
+
 
 }
 
