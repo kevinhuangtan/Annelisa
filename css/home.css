@@ -25,10 +25,10 @@ p{
 }
 .menu{
 	text-align: center;
-	height: 90px;
+	height: 100px;
 }
 .signature{
-	 width:180px;
+	 width:190px;
 }
 .signature:hover{
 	opacity :.7;
@@ -37,7 +37,6 @@ p{
 /*menu: about work contact vertical*/
 
 ul{
-
 	display: inline;
 }
 li{
@@ -48,6 +47,11 @@ li{
 	color: black;
 	font-size: 15px;
 	margin-right: 20px;
+}
+.back{
+    position:absolute;
+    height:18px;
+    top:47px;
 }
 
 /*#####################*/
@@ -113,6 +117,11 @@ a:hover{
     }
     body{
     	margin-right: 0px!important;
+    }
+    .back{
+    position:absolute;
+    height:18px;
+    top:104px;
     }
 
 }
