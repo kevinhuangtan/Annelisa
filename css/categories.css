@@ -38,7 +38,7 @@
 
 /*artwork page*/
 #photography-pic{
-    background: url('../images/photography/southwest/7.jpeg');
+    background: url('../images/photography/southwest/thumbnails/thumb7.jpeg');
     background-position: center; 
     background-size: 380px;
 }
@@ -48,31 +48,31 @@
     background-size: 380px;
 }
 #illustration-pic{
-    background: url('../images/illustration/35.jpeg');
+    background: url('../images/illustration/thumbnails/thumb35.jpeg');
     background-position: center; 
     background-size: 380px;
 }
 
 /*photography page*/
 #iceland-pic{
-    background: url('../images/photography/iceland/15.jpeg');
+    background: url('../images/photography/iceland/thumbnails/thumb15.jpeg');
     background-position: center; 
     background-size: 500px;
 }
 #israel-pic{
-    background: url('../images/photography/israel/19.jpeg');
+    background: url('../images/photography/israel/thumbnails/thumb19.jpeg');
     background-position: center; 
     background-size: 400px;
 /*    left top*/
     background-position: 50% 20%;
 }
 #art-pic{
-    background: url('../images/photography/artphotos/artphotos_cover.jpeg');
+    background: url('../images/photography/artphotos/thumbnails/thumb2.jpeg');
     background-position: center; 
     background-size: 400px;
 }
 #south-pic{
-    background: url('../images/photography/southwest/17.jpeg');
+    background: url('../images/photography/southwest/thumbnails/thumb17.jpeg');
     background-position: center; 
     background-size: 400px;
 }
