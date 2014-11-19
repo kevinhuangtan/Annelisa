@@ -37,20 +37,20 @@
 
 @media (max-width: 620px) {
     .al_slideshow{
-    	margin-top: 15px;
+    	margin-top: 25px;
     	width: 300px;
         height:auto;
     }
     .arrow-left{
     	display: block!important;
     	height:35px;
-    	margin-top: 85%;
+    	margin-top: -60px;
     	left: 5%;
     }
     .arrow-right{
     	display: block!important;
     	height:35px;
-    	margin-top: 85%;
+    	margin-top: -60px;
     	right: 5%;
     }
     .art_description{
