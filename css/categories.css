@@ -5,19 +5,18 @@
 .blocks{
     height:18vw;
     overflow: hidden;
-/*    background-color: blue;*/
+    display: table;
+    padding: 0px;
 
 }
 .category{
     position:absolute;
     left:0;
     right:0;
-    margin:auto;
-
+    margin:10px;
     /* size*/    
     height:18vw;
    /* spacing*/
-    width:94%;
     opacity:.4;
 }
 
@@ -31,13 +30,15 @@
     top:0;
     bottom: 0;
     margin:auto;
+   
+    position: absolute;
     width: 100%;
     display: table;
 }
 
 /*artwork page*/
 #photography-pic{
-    background: url('../images/photography/southwest/9.gif');
+    background: url('../images/photography/southwest/7.jpeg');
     background-position: center; 
     background-size: 380px;
 }
@@ -47,29 +48,31 @@
     background-size: 380px;
 }
 #illustration-pic{
-    background: url('../images/illustration/illustration_cover.gif');
+    background: url('../images/illustration/35.jpeg');
     background-position: center; 
     background-size: 380px;
 }
 
 /*photography page*/
 #iceland-pic{
-    background: url('../images/photography/iceland/15.gif');
+    background: url('../images/photography/iceland/15.jpeg');
     background-position: center; 
     background-size: 500px;
 }
 #israel-pic{
-    background: url('../images/photography/israel/13.gif');
+    background: url('../images/photography/israel/19.jpeg');
     background-position: center; 
     background-size: 400px;
+/*    left top*/
+    background-position: 50% 20%;
 }
 #art-pic{
-    background: url('../images/photography/artphotos/artphotos_cover.gif');
+    background: url('../images/photography/artphotos/artphotos_cover.jpeg');
     background-position: center; 
     background-size: 400px;
 }
 #south-pic{
-    background: url('../images/photography/southwest/21.gif');
+    background: url('../images/photography/southwest/17.jpeg');
     background-position: center; 
     background-size: 400px;
 }
@@ -96,14 +99,23 @@
         height:125px;
         margin-left:auto;
         margin-right:auto;
-        margin-top: 15px;
+        margin-top: 10px;
+        width:250px;
     }
     .category{
     	padding-left:20px;
     	padding-right:20px;
         height:125px;
-    }
-    .row{
+        position:absolute;
+        left:0;
+        right:0;
+        margin:auto;
+
+        /* size*/    
+
+        /* spacing*/
+        width:250px;
+        opacity:.4;
     }
 
 

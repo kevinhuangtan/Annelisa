@@ -84,7 +84,12 @@ a:hover{
     	display: block;
     }
     ul{
-    	padding-top: 10px;
+    	padding:5px;
+    	margin:auto 0px;
+    }
+    li{
+    	padding:7px;
+    	margin:auto 0px;
     }
     #home-container{
     	width:320px;
