@@ -1,5 +1,4 @@
 body{
-	padding-top: 15px;
 }
 
 p{
@@ -26,6 +25,7 @@ p{
 .menu{
 	text-align: center;
 	height: 100px;
+    margin-top:15px;
 }
 .signature{
 	 width:190px;

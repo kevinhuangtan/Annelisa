@@ -25,7 +25,7 @@ function nextSlide(slide){
     return
 }
 
-$(window).load(function(){
+$(document).ready(function(){
 
   //get current slide
   var slide = parseInt(getSecondPart(window.location.href));
@@ -36,7 +36,6 @@ $(window).load(function(){
   //next button to next slide
   $("#next").click(function(){
     var meta = $('meta[name="page"]').attr("content");
-    console.log(meta);
     switch(meta){
       case 'iceland':
           if (slide < slides_iceland){
@@ -166,8 +165,27 @@ $(window).load(function(){
 
   });
 });
-
-
+ 
 });  
 
 
+$(document).ready(function(){
+ var fullscreen = false;
+  var img_source = "source"
+   $('.al_slideshow').click(function(){
+    img_source = $(this).attr("src")
+    $('.fullscreen-img').attr("src",img_source)
+    $('.fullscreen').fadeToggle("slow", function(){
+        fullscreen = true;
+    });
+  })
+  $('.fullscreen').click(function(){
+    if (fullscreen == true){
+      $('.fullscreen').fadeToggle("slow", function(){
+        fullscreen = false;
+    });
+    }
+    
+  })
+
+})
