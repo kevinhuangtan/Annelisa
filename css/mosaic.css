@@ -7,7 +7,10 @@
 	height: 60px;
 	background-position: center; 
 	background-size: 200px;
-	opacity:.00;
+	opacity:0;
+	transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -webkit-backface-visibility: hidden;
 }
 .mos_pic:hover{
 	opacity:.5;

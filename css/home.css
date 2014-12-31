@@ -29,6 +29,9 @@ p{
 }
 .signature{
 	 width:190px;
+     transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -webkit-backface-visibility: hidden;
 }
 .signature:hover{
 	opacity :.7;
@@ -58,14 +61,21 @@ li{
 
 a{
 	color: black;
+    transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -webkit-backface-visibility: hidden;
 }
 a:hover{
 	text-decoration: none;
 	color: black;
 }
-
+.menu_items a{ 
+    transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -webkit-backface-visibility: hidden;
+}
 .menu_items a:hover{
-	color: #5C5B5B;
+    opacity: .75;
 }
 
 /**thumbnail pages*/
@@ -77,6 +87,9 @@ a:hover{
 	height: 120px;
 	background-position: center; 
 	background-size: 300px;
+    transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -webkit-backface-visibility: hidden;
 }
 .thumb_pic:hover{
 	opacity: .4;

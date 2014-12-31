@@ -1,4 +1,8 @@
-
+.category{
+    transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -webkit-backface-visibility: hidden;
+}
 .category:hover{
     opacity: .99;
 }
