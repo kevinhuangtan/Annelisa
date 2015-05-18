@@ -1,10 +1,10 @@
 
-$(document).on('mouseover',function(e) {
-  var class_pic  = $(e.target).attr('class');
+$(document).ready(function() {
+  // var class_pic  = $(e.target).attr('class');
 
-  if (class_pic=="mos_pic reveal"){
-    $(e.target).css('opacity', '1');
-  };
+  // if (class_pic=="mos_pic reveal"){
+  //   $(e.target).css('opacity', '1');
+  // };
      var numbers = [];
     while (numbers.length < 96) {
         // ParseInt for rounding. Real random numbers are 99 starting on 1.
