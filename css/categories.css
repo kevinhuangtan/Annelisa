@@ -44,41 +44,35 @@
 #photography-pic{
     background: url('../images/photography/southwest/thumbnails/thumb7.jpeg');
     background-position: center; 
-    background-size: 380px;
 }
 #painting-pic{
     background: url('../images/tempest.jpg');
     background-position: center; 
-    background-size: 380px;
 }
 #illustration-pic{
     background: url('../images/illustration/thumbnails/thumb35.jpeg');
     background-position: center; 
-    background-size: 380px;
 }
 
 /*photography page*/
 #iceland-pic{
     background: url('../images/photography/iceland/thumbnails/thumb15.jpeg');
     background-position: center; 
-    background-size: 500px;
-}
+/*    background-size: 500px;
+*/}
 #israel-pic{
     background: url('../images/photography/israel/thumbnails/thumb19.jpeg');
     background-position: center; 
-    background-size: 400px;
-/*    left top*/
+
     background-position: 50% 20%;
 }
 #art-pic{
     background: url('../images/photography/artphotos/thumbnails/thumb2.jpeg');
     background-position: center; 
-    background-size: 400px;
 }
 #south-pic{
     background: url('../images/photography/southwest/thumbnails/thumb17.jpeg');
     background-position: center; 
-    background-size: 400px;
 }
 
 
