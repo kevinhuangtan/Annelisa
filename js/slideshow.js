@@ -1,4 +1,3 @@
-
 var slides_iceland = 23;
 var slides_israel = 29;
 var slides_southwest = 22;
@@ -167,7 +166,6 @@ $(document).ready(function(){
 });
  
 });  
-
 
 $(document).ready(function(){
  var fullscreen = false;

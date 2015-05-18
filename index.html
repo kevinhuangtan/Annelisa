@@ -5,35 +5,18 @@
     <title>Annelisa Leinbach</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/home.css"rel="stylesheet" media="screen">
     <link href="css/mosaic.css"rel="stylesheet" media="screen">
-    <link href="css/slideshow.css"rel="stylesheet" media="screen">
     <link rel="shortcut icon" href="favicon.ico"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/intro.js"></script>
     <script src="js/mosaic.js"></script>
-    <script>
-    $(document).ready(function(){
-    var numbers = [];
-    while (numbers.length < 96) {
-        // ParseInt for rounding. Real random numbers are 99 starting on 1.
-        var number = Math.floor(Math.random() * 102 + 1); ; 
-        // save the number into an array and avoid duplicated.
-        if( $.inArray(number, numbers) == -1 ){
-            numbers.push(number);
-            var newid = "thumb" + number;
-            $("#thumb").attr("id",newid);
-        }
-    }
-     });
-    </script>
   </head>
 
   <body>
 
-  <div id="cover"><img id="intro" src="images/signature_movie.jpg"></div>
-  
+<!--   <div id="cover"><img id="intro" src="images/signature_movie.jpg"></div>
+ -->  
   <div class="menu">
       <a href="index.html">
           <img class="signature"src="images/signature.png">
@@ -46,7 +29,6 @@
   </div>
 
     <div class="container-fluid"id="home-container">
-       <!--    <img class ="al_slideshow"src="images/cave.jpg">  -->
         <div class ="row">
           <div class="mos_container col-xs-1"><div class = "mos_pic backg" id="thumb"></div></div>
           <div class="mos_container col-xs-1"><div class = "mos_pic backg" id="thumb"></div></div>

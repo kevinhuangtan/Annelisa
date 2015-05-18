@@ -34,7 +34,7 @@ p{
     -webkit-backface-visibility: hidden;
 }
 .signature:hover{
-	opacity :.7;
+	opacity :.5;
 }
 
 /*menu: about work contact vertical*/
@@ -61,21 +61,18 @@ li{
 
 a{
 	color: black;
-    transition: opacity .3s;
-    -webkit-transition: opacity .3s;
-    -webkit-backface-visibility: hidden;
 }
 a:hover{
 	text-decoration: none;
 	color: black;
 }
 .menu_items a{ 
-    transition: opacity .3s;
-    -webkit-transition: opacity .3s;
+    transition: opacity .2s;
+    -webkit-transition: opacity .2s;
     -webkit-backface-visibility: hidden;
 }
 .menu_items a:hover{
-    opacity: .75;
+    opacity: .5;
 }
 
 /**thumbnail pages*/
