@@ -1,6 +1,6 @@
 
 .container-fluid{
-    width:85%;
+    width:80%;
 }
 .category{
     transition: opacity .3s;
@@ -11,7 +11,7 @@
     right:0;
     margin:10px;
     /* size*/    
-    height:18vw;
+    height:16vw;
    /* spacing*/
     opacity:.4;
     background-repeat: no-repeat!important;
@@ -20,7 +20,7 @@
     opacity: .99;
 }
 .blocks{
-    height:18vw;
+    height:16vw;
     overflow: hidden;
     display: table;
     padding: 0px;
