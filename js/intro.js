@@ -19,11 +19,8 @@ function get_cookie_string(str) {
 //   }
 // };
 function run(){
-  if (document.cookie){
-        document.getElementById("cover").style.display ='none';
-  }
-  else{
-    if (!document.cookie){
+
+
         document.getElementById("intro").style.display ='block';
         var intro = document.getElementById("intro");
         var cover = document.getElementById("cover");
@@ -31,8 +28,8 @@ function run(){
         fade_delay(intro);
         fade_cover_delay(cover);
         document.cookie="visited=yes";
-    }
-  }
+
+
 };
 run();
 function fade_delay(element) {
