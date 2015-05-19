@@ -6,7 +6,6 @@
 .mos_pic{
 	height: 60px;
 	background-position: center; 
-	background-size: 200px;
 	opacity:0;
 	transition: opacity .3s;
     -webkit-transition: opacity .3s;

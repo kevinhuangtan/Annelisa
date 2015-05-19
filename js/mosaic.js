@@ -22,5 +22,4 @@ function ready_for_mouseover(){
       };
 
   });
-  console.log('afdas')
 }
