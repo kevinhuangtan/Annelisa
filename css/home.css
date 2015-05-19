@@ -20,6 +20,7 @@ p{
 #intro{
 	width:100%;
 	display: none;
+    content:url("../images/signature_big.jpg");
 }
 .menu{
 	text-align: center;
