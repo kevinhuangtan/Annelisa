@@ -3,7 +3,7 @@ function get_cookie_string(str) {
   return str.split('=')[1];
 };   
 window.onload=function(){
-  if (document.cookie){
+  if (!document.cookie){
         document.getElementById("cover").style.display ='none';
   }
   else{
