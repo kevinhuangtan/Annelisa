@@ -1,10 +1,9 @@
-body{
-}
 
 p{
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .container-fluid{
+    padding-top: 10px;
 	width:90%;
 }
 
@@ -25,7 +24,7 @@ p{
 .menu{
 	text-align: center;
 	height: 100px;
-    margin-top:15px;
+    padding-top:10px;
 }
 .signature{
 	 width:190px;
@@ -54,7 +53,7 @@ li{
 .back{
     position:absolute;
     height:18px;
-    top:47px;
+    top:42px;
 }
 
 /*#####################*/
