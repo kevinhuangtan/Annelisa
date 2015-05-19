@@ -1,7 +1,20 @@
+
+.container-fluid{
+    width:85%;
+}
 .category{
     transition: opacity .3s;
     -webkit-transition: opacity .3s;
     -webkit-backface-visibility: hidden;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:10px;
+    /* size*/    
+    height:18vw;
+   /* spacing*/
+    opacity:.4;
+    background-repeat: no-repeat!important;
 }
 .category:hover{
     opacity: .99;
@@ -12,16 +25,6 @@
     display: table;
     padding: 0px;
 
-}
-.category{
-    position:absolute;
-    left:0;
-    right:0;
-    margin:10px;
-    /* size*/    
-    height:18vw;
-   /* spacing*/
-    opacity:.4;
 }
 
 .work-text{
