@@ -3,11 +3,11 @@ function get_cookie_string(str) {
   return str.split('=')[1];
 };   
 window.onload=function(){
-  if (document.cookie){
+  if (!document.cookie){
         document.getElementById("cover").style.display ='none';
   }
   else{
-    if (!document.cookie){
+    if (document.cookie){
         document.getElementById("intro").style.display ='block';
         var intro = document.getElementById("intro");
         var cover = document.getElementById("cover");
