@@ -83,7 +83,7 @@ a:hover{
 .thumb_pic{
 	height: 120px;
 	background-position: center; 
-	background-size: 300px;
+/*	background-size: 300px;*/
     transition: opacity .3s;
     -webkit-transition: opacity .3s;
     -webkit-backface-visibility: hidden;
