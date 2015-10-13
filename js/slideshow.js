@@ -3,7 +3,7 @@ var slides_israel = 29;
 var slides_southwest = 22;
 var slides_artphotos = 10;
 var slides_painting = 17;
-var slides_illustration = 42;
+var slides_illustration = 43;
 
 // go to next slide
 function getSecondPart(str) {
